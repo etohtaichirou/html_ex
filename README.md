@@ -26,6 +26,6 @@
 
 ## 印刷
 
-https://qiita.com/cognitom/items/d39d5f19054c8c8fd592
-https://github.com/cognitom/paper-css
-https://www.npmjs.com/package/paper-css
+- https://qiita.com/cognitom/items/d39d5f19054c8c8fd592
+- https://github.com/cognitom/paper-css
+- https://www.npmjs.com/package/paper-css
