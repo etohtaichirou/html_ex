@@ -1,4 +1,4 @@
-blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+body, blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre, div {
   margin: 0;
 }
 .global-header {
@@ -8,7 +8,16 @@ blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 10000;
+  /* z-index: 1; */
+}
+.box {
+  width: 100vw;
+  height: 100vh;
+}
+.box__bg_photo {
+  background-image: url(sample_image.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .holy-grail {
   font-size: 2rem;
