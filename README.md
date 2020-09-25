@@ -8,7 +8,7 @@
 - サインアップ
 - 予定表・・・カレンダーの表示、左右にサイドメニューが現れる
 - 一覧・登録・・・マスタ一覧、登録
-- 請求書・・・@media printで印刷用ページを作る
+- 請求書・・・@media print で印刷用ページを作る
 
 ## 作成するファイル
 
@@ -29,3 +29,13 @@
 - https://qiita.com/cognitom/items/d39d5f19054c8c8fd592
 - https://github.com/cognitom/paper-css
 - https://www.npmjs.com/package/paper-css
+
+## TODO
+
+- [ ] サインインページ
+- [ ] サインアップページ
+- [ ] ハンバーガーメニュー
+- [ ] 一覧・登録
+- [ ] 予定表・・・カレンダーの表示、左右にサイドメニューが現れる
+- [x] @media print で印刷用ページを作る
+- [x] 画面いっぱいにヒーローイメージを表示
