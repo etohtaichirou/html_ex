@@ -30,7 +30,7 @@ div {
 .global-box {
   margin: 0;
   width: 100vw;
-  height: 100vh - 65px;
+  height: 100vh;
   min-height: 450px;
 }
 .hero-image {
