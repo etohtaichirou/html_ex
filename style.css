@@ -15,6 +15,9 @@ pre,
 div {
   margin: 0;
 }
+.font-noto-sans {
+  font-family: "Noto Sans JP", sans-serif;
+}
 .global-header {
   background: #fff;
   display: flex;
@@ -34,6 +37,15 @@ div {
   background-image: url("sample_image.jpg");
   background-size: cover;
 }
-.font-noto-sans {
-  font-family: "Noto Sans JP", sans-serif;
+.global-nav ul {
+  overflow: hidden;
+}
+.global-nav ul li {
+  float: left;
+  width: 150px;
+  list-style: none;
+}
+.global-nav li a {
+  text-decoration: none;
+  color: #333;
 }
