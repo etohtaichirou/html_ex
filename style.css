@@ -34,3 +34,6 @@ div {
   background-image: url("sample_image.jpg");
   background-size: cover;
 }
+.font-noto-sans {
+  font-family: "Noto Sans JP", sans-serif;
+}
