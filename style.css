@@ -30,3 +30,7 @@ div {
   height: 100vh - 65px;
   min-height: 450px;
 }
+.hero-image {
+  background-image: url("sample_image.jpg");
+  background-size: cover;
+}
