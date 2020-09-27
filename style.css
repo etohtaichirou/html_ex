@@ -1,19 +1,10 @@
-body,
-blockquote,
-dd,
-dl,
-figure,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-p,
-pre,
-div {
-  margin: 0;
+/**
+ * Add border box sizing in all browsers (opinionated).
+ */
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 .font-noto-sans {
   font-family: "Noto Sans JP", sans-serif;
@@ -28,8 +19,8 @@ div {
   /* z-index: 1; */
 }
 .global-box {
-  margin: 0;
-  width: 100vw;
+  /* margin: 0; */
+  /* width: 100vw; */
   height: 100vh;
   min-height: 450px;
 }

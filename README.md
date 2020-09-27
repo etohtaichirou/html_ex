@@ -1,5 +1,13 @@
 # html_ex
 
+- [x] Eric Meyer’s “Reset CSS” 2.0
+- [ ] HTML5 Doctor CSS Reset
+- [x] Yahoo! (YUI 3) Reset CSS
+- [x] Universal Selector ‘\*’ Reset
+- [x] Normalize.css
+- [ ] ress '''ress.css は normalize.css をさらに使いやすくするためにアップデートされた CSS です。
+- [ ] sanitize.css
+
 ## ページの構成
 
 - トップ・・・画面いっぱいにヒーローイメージを表示
