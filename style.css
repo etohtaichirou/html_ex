@@ -10,13 +10,13 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 .global-header {
-  background: #fff;
   display: flex;
   position: fixed;
+  justify-content: space-between;
+  background: #fff;
   height: 60px;
   width: 100%;
   top: 0;
-  /* z-index: 1; */
 }
 .global-box {
   /* margin: 0; */
@@ -47,6 +47,10 @@ input {
   border-radius: 3px; /*ボックス角の丸み*/
   border: 2px solid #ddd; /*枠線*/
   box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+}
+.menu-item {
+  width: 280;
+  height: 26;
 }
 @media (prefers-color-scheme: dark) {
   body {
