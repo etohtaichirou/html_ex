@@ -29,6 +29,7 @@
 - register.html
 - schedule.html
 - invoice.html
+- sidebar.html
 - template-holy-grail.html
 - template-sidebar.html
 

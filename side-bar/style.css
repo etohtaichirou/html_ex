@@ -1,0 +1,30 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+.two-pain-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: minmax(180px, 1fr) 2fr;
+}
+.main {
+  background: #fcc;
+  order: 2;
+}
+.side {
+  background: #fea;
+  order: 1;
+}
+.main,
+.side {
+  padding: 2%;
+  border-radius: 10px;
+}
+@media (max-width: 400px) {
+  .main,
+  .side,
+  .list {
+    order: 0;
+  }
+}
