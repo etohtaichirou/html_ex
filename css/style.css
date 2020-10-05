@@ -40,7 +40,6 @@
   text-decoration: none;
   color: #333;
 }
-
 .signin-box {
   width: 540px;
   height: 300px;
@@ -48,7 +47,6 @@
   justify-content: center;
   align-items: center;
 }
-
 input {
   width: 100%; /*親要素いっぱい広げる*/
   padding: 10px 15px; /*ボックスを大きくする*/
