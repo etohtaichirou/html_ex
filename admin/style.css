@@ -1,0 +1,21 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.layout-sidebar {
+  display: grid;
+  grid-template-columns: minmax(280px, 13fr) 50fr;
+}
+.pane-main {
+  /* background: #fcc; */
+  order: 2;
+}
+.pane-sidebar {
+  /* background: #fea; */
+  order: 1;
+}
