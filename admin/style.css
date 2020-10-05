@@ -6,31 +6,20 @@
 body {
   min-height: 100vh;
   min-width: 100vw;
+  transition: 0.5s;
 }
 .layout-sidebar {
   display: grid;
+  gap: var(--sidebar-gap);
   grid-template-columns: minmax(280px, 13fr) 50fr;
 }
 .pane-main {
-  background-color: #fcc;
   order: 2;
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 .pane-sidebar {
-  background-color: #fea;
   order: 1;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #000;
-    color: #fff;
-  }
-  .pane-main {
-    background-color: #000;
-    order: 2;
-  }
-  .pane-sidebar {
-    background-color: #000;
-    order: 1;
-  }
+  background-color: var(--color-sub-background);
+  color: var(--color-text);
 }
