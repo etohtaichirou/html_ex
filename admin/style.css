@@ -12,10 +12,25 @@ body {
   grid-template-columns: minmax(280px, 13fr) 50fr;
 }
 .pane-main {
-  /* background: #fcc; */
+  background: #fcc;
   order: 2;
 }
 .pane-sidebar {
-  /* background: #fea; */
+  background: #fea;
   order: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+  .pane-main {
+    background-color: #000;
+    order: 2;
+  }
+  .pane-sidebar {
+    background-color: #000;
+    order: 1;
+  }
 }
